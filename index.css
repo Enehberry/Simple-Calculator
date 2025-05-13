@@ -1,38 +1,75 @@
-body{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   background-color: black;
-   margin: 0; 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  margin: 0;
 }
 
-.calculator { 
-    width: 300px;  
-    background-color: white; 
-    padding: 50px; 
-    border-radius: 10px; 
+.calculator {
+  width: 300px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
 }
 
-button{
-    color:brown;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    font-size: 20px;
+button {
+  color: brown;
+  height: 60px;
+  /* width: 60px; */
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
 }
-input{
-    color:maroon;
-    background-color:rgb(124, 124, 187);
-    width: 60px;
-    height: 60px;
-    margin-bottom:0px;
+input {
+  color: black;
+  font-weight: 700;
+  /* color:maroon; */
+  /* background-color:rgb(124, 124, 187); */
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0px;
 }
-button:hover{
-    color: black;
+button:hover {
+  color: black;
 }
 
-.equal, .clear{
-    color: blue;
+.equal,
+.clear {
+  color: blue;
 }
 
+/* AUTHOR:: SHIGABA VICTOR SHIGABA */
+/* GITHUB:: Iamvikthur */
+
+.answer {
+  width: 97%;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.special-buttons {
+  display: flex;
+  width: 100%;
+}
+
+.special-buttons button {
+  width: 50%;
+}
+
+.zero {
+  width: 50%;
+}
+
+.calculator-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
